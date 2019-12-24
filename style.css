@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@import url('https://fonts.googleapis.com/css?family=Herr+Von+Muellerhoff|Roboto&display=swap');
+
+html{
+    font-size: 10px;
+}
+
+.hero{
+    width:100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.rext-wrapper{
+    text-align:center;
+}
+
+.headline{
+    font-size:15rem;
+    font-family: 'Herr Von Muellerhoff', cursive;
+    color: #232266;
+    font-weight:100;
+    line-height: .4;
+}
+
+.headline::firsr-letter{
+    font-size: 20rem;
+}
+
+.sub-headline{
+    font-size:5rem;
+    font-family: fantasy;
+    padding-top: 20px;
+    text-transform: uppercase;
+    color: rgba(218, 17, 191, 0.877);
+}
+
+.parallax{
+    position: absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+    object-fit: cover;
+    z-index: -1;
+}
+
+.overflow{
+    height:200vh;
+}
